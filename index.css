@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-size:contain ;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px;
+    min-width: 400px;
+    min-height: 400px;
+    background-image: url("2.png");
+    box-sizing: border-box;
+}
+
+div {
+    margin-bottom: 7px;
+    margin-top: 5px;
+}
+
+input {
+    margin: 3px 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding: 10px;
+    width: 80%;
+    box-sizing: border-box;
+    border-width: 2px;
+    /* border-color:black; */
+    border-style: solid;
+    font-size: 20px;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255, 0.6);
+    backdrop-filter: blur(4px);
+    transition-duration: .3s;
+}
+
+input:hover {
+    background-color: rgb(255, 255, 255, 0.7);
+    box-shadow: 0 0 20px rgba(76, 44, 99, 0.7);
+
+
+}
+
+button {
+    color: white;
+    background-color: rgb(0, 0, 0, 0.6);
+    font-weight: bold;
+    font-size: 14px;
+    padding: 12px 20px;
+    /* border: 2px solid rgb(40, 0, 89); */
+    text-align: left;
+    border-radius: 8px;
+    margin-top: 3px;
+    backdrop-filter: blur(10px);
+    border: none;
+    transition-duration: .2s;
+    
+}
+
+button:hover {
+    box-shadow: 0 0 20px rgba(76, 44, 99, 0.75);
+    background-color: rgb(0, 0, 0, 0.8);
+}
+
+/* #stress-btn {
+    color: black;
+    background-color: rgba(171, 171, 171, 0.8);
+    border: 2px solid black;
+} */
+
+
+#delete-btn {
+    color: black;
+    background-color: rgba(171, 171, 171, 0.6);
+    backdrop-filter: blur(10px);
+    border: none;
+}
+
+#delete-btn:hover {
+    background-color: rgba(171, 171, 171, 0.9);
+}
+
+ul {
+    margin-top: 20px;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+li {
+    margin-top: 5px;
+    font-size: larger;
+}
+li a {
+    color: #5f9341;
+}
+
+
+/* button */
+#toggle-btn{
+    position:absolute;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    right: 1%;
+    /* bottom: 1%; */
+    top: 10px;
+
+}
+
+
+
+/* #footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+} */
+
+/* 
+h1 {
+    color: goldenrod;
+}
+
+
+p {
+    color: white;
+}
+
+#question-el {
+    font-style: italic;
+}
+
+button {
+    color:#016f32;
+    width: 150px;
+    background-color: goldenrod;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5%;
+    margin: 5px;
+} */
+
+
+

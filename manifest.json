@@ -1,11 +1,9 @@
 {
-    "manifest_version" : 3,
-    "name" : "ATest Ext", 
-    "version" : "1.0",
-    "content_scripts" : [
-        {
-            "matches" : ["https://meduniver.com/*"],
-            "js" : ["content.js"]
-        }
-    ]
+    "manifest_version": 3, 
+    "version":"1.1",
+    "name":"World Sandwich",
+    "action": {
+        "default_popup":"index.html",
+        "default_icon":"2.png"
+    }
 }
